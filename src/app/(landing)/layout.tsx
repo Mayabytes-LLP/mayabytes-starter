@@ -6,7 +6,7 @@ interface LandingLayoutProps {
   children: React.ReactNode
 }
 
-export function LandingLayout({ children, ...props }: LandingLayoutProps) {
+export default function LandingLayout({ children }: LandingLayoutProps) {
   return (
     <>
       <Header />
